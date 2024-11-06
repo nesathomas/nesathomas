@@ -1,9 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
+import Newfn from './first';
 
 function App() {
   return (
-    <button> Hello World !!</button>
+      <Newfn/>
   );
 }
 
