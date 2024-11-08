@@ -1,11 +1,15 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
-import Newfn from './first';
+import Layout from './pages/Layout';
+    
 
-function App() {
-  return (
-      <Newfn/>
-  );
+
+function App(){ 
+    return(
+        <div>
+            <Layout/>
+        </div>
+    )
 }
 
 export default App;
