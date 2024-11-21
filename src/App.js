@@ -6,6 +6,8 @@ function App() {
   return (
       <Newfn/>
   );
+<button>Hello</button>
+
 }
 
 export default App;
