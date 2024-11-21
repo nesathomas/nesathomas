@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+  align-items: center; /* Vertically align items in the center */
+  justify-content: flex; /* Align items horizontally to the left or right */
+  gap: 20px; /* Space between the image and content */
+}
+
+.image-container img {
+  width: 550px; /* Control the size of the image */
+  height: 680px; /* Maintain aspect ratio */
+}
+
+.content-container {
+  flex: 1; /* Make content container take the remaining space */
+  width: 60%; /* Control the size of the image */
+  height: 750px; /* Maintain aspect ratio */
+
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 16px;
+}
